@@ -27,7 +27,7 @@ public class JacksonTest {
         ObjectMapper objectMapper = new ObjectMapper();
 
         Star star = objectMapper.readValue(json,Star.class);
-        System.out.println("Star.getName() "+star.getName());
-        System.out.println("star.getAge() = " + star.getAge());
+//        System.out.println("Star.getName() "+star.getName());
+//        System.out.println("star.getAge() = " + star.getAge());
     }
 }
